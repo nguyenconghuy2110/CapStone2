@@ -1,12 +1,12 @@
-import mai from "/FE_CGV/fecenima/src/img/mai.jpg";
-import chibau from "/FE_CGV/fecenima/src/img/chibau.png";
-import madam from "/FE_CGV/fecenima/src/img/madam.jpg";
+import mai from "../../img/mai.jpg";
+import chibau from "../../img/chibau.png";
+import madam from "../../img/madam.jpg";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Stack from "@mui/material/Stack";
 import { Row, Col } from "react-bootstrap";
-import smaill from "/FE_CGV/fecenima/src/img/smaill.gif";
+import smaill from "../../img/smaill.gif";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
@@ -18,7 +18,7 @@ import Aos from "aos";
 import { Button } from "@mui/material";
 import "aos/dist/aos.css";
 import axios from "axios";
-import movieselection from "/FE_CGV/fecenima/src/img/movieselection.png";
+import movieselection from "../../img/movieselection.png";
 
 function LichChieuPhim() {
   const [loading, setLoading] = useState(true);

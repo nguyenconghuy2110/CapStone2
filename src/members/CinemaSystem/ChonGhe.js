@@ -1,10 +1,10 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
-import ghethuong from "/FE_CGV/fecenima/src/img/ghethuong.png";
-import ghevip from "/FE_CGV/fecenima/src/img/ghevip.png";
-import ghedoi from "/FE_CGV/fecenima/src/img/ghedoi.png";
-import ghedachon from "/FE_CGV/fecenima/src/img/ghedachon.png";
-import ghedaban from "/FE_CGV/fecenima/src/img/ghedaban.png";
-import brand from "/FE_CGV/fecenima/src/img/brand.png";
+import ghethuong from "../../img/ghethuong.png";
+import ghevip from "../../img/ghevip.png";
+import ghedoi from "../../img/ghedoi.png";
+import ghedachon from "../../img/ghedachon.png";
+import ghedaban from "../../img/ghedaban.png";
+import brand from "../../img/brand.png";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -247,8 +247,8 @@ function ChonGhe() {
                         className={`button primary expand ${Object.values(selectedSeats).every(
                           (seat) => seat === false
                         )
-                            ? "disabled"
-                            : ""
+                          ? "disabled"
+                          : ""
                           }`}
                         style={{
                           marginBottom: "15px",
@@ -385,8 +385,8 @@ function ChonGhe() {
                     className={`button primary expand ${Object.values(selectedSeats).every(
                       (seat) => seat === false
                     )
-                        ? "disabled"
-                        : ""
+                      ? "disabled"
+                      : ""
                       }`}
                     style={{
                       marginBottom: "15px",

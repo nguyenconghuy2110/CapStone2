@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import logomai from "/FE_CGV/fecenima/src/img/logomai.png";
-import thanhguom from "/FE_CGV/fecenima/src/img/thanhguom.png";
-import panda from "/FE_CGV/fecenima/src/img/panda.jpg";
-import mai from "/FE_CGV/fecenima/src/img/mai.jpg";
-import chibau from "/FE_CGV/fecenima/src/img/chibau.png";
-import duoi16t from "/FE_CGV/fecenima/src/img/duoi16t.jpg";
-import WEBLED from "/FE_CGV/fecenima/src/img/WEBLED.jpg";
-import referenceSchemeHead from "/FE_CGV/fecenima/src/img/referenceSchemeHead.jpg";
-import reference43 from "/FE_CGV/fecenima/src/img/reference43.png";
+import logomai from ".././img/logomai.png";
+import thanhguom from ".././img/thanhguom.png";
+import panda from ".././img/panda.jpg";
+import mai from ".././img/mai.jpg";
+import chibau from ".././img/chibau.png";
+import duoi16t from ".././img/duoi16t.jpg";
+import WEBLED from ".././img/WEBLED.jpg";
+import referenceSchemeHead from ".././img/referenceSchemeHead.jpg";
+import reference43 from ".././img/reference43.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-datepicker/dist/react-datepicker.css";
@@ -18,7 +18,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import smaill from "/FE_CGV/fecenima/src/img/smaill.gif";
+import smaill from ".././img/smaill.gif";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import Stack from "@mui/material/Stack";
