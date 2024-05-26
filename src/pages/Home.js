@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
-import logomai from ".././img/logomai.png";
-import thanhguom from ".././img/thanhguom.png";
-import panda from ".././img/panda.jpg";
-import mai from ".././img/mai.jpg";
-import chibau from ".././img/chibau.png";
-import duoi16t from ".././img/duoi16t.jpg";
-import WEBLED from ".././img/WEBLED.jpg";
-import referenceSchemeHead from ".././img/referenceSchemeHead.jpg";
-import reference43 from ".././img/reference43.png";
+
+import thanhguom from "../img/thanhguom.png";
+
+import mai from "../img/mai.jpg";
+import chibau from "../img/chibau.png";
+import duoi16t from "../img/duoi16t.jpg";
+import WEBLED from "../img/WEBLED.jpg";
+import referenceSchemeHead from "../img/referenceSchemeHead.jpg";
+import reference43 from "../img/reference43.png";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-datepicker/dist/react-datepicker.css";
@@ -18,7 +19,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import smaill from ".././img/smaill.gif";
+
 import { useLocation, useNavigate } from "react-router-dom";
 
 import Stack from "@mui/material/Stack";

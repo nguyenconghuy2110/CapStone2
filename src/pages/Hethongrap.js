@@ -1,4 +1,4 @@
-import garden from ".././img/garden.jpg";
+import garden from "../img/garden.jpg";
 import { CircularProgress } from "@mui/material";
 import { useEffect, useState } from "react";
 import Aos from "aos";
@@ -22,7 +22,7 @@ function Hethongrap() {
   return (
     <div>
       {loading ? (
-        <CircularProgress className="loading" />
+        <CircularProgress className="loading"/>
       ) : (
         <div id="col-1063932164" class="col small-12 large-12">
           <div class="col-inner1 text-center">

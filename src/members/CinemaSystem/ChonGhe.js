@@ -138,7 +138,7 @@ function ChonGhe() {
   }, [params.showId]);
   const [itemQuantities, setItemQuantities] = useState({});
 
-  const handle = () => { };
+  const handle = () => {};
 
   const renderMenu = () => {
     const menuData = JSON.parse(localStorage.getItem("shows"));
@@ -244,12 +244,13 @@ function ChonGhe() {
                         to={{
                           pathname: "/chondoan",
                         }}
-                        className={`button primary expand ${Object.values(selectedSeats).every(
-                          (seat) => seat === false
-                        )
-                          ? "disabled"
-                          : ""
-                          }`}
+                        className={`button primary expand ${
+                          Object.values(selectedSeats).every(
+                            (seat) => seat === false
+                          )
+                            ? "disabled"
+                            : ""
+                        }`}
                         style={{
                           marginBottom: "15px",
                           pointerEvents: Object.values(selectedSeats).every(
@@ -382,12 +383,13 @@ function ChonGhe() {
                     to={{
                       pathname: "/chondoan",
                     }}
-                    className={`button primary expand ${Object.values(selectedSeats).every(
-                      (seat) => seat === false
-                    )
-                      ? "disabled"
-                      : ""
-                      }`}
+                    className={`button primary expand ${
+                      Object.values(selectedSeats).every(
+                        (seat) => seat === false
+                      )
+                        ? "disabled"
+                        : ""
+                    }`}
                     style={{
                       marginBottom: "15px",
                       pointerEvents: Object.values(selectedSeats).every(
@@ -663,20 +665,23 @@ function ChonGhe() {
                                                         <img
                                                           src={
                                                             selectedSeats[
-                                                              `${key}${index + 1
+                                                              `${key}${
+                                                                index + 1
                                                               }`
                                                             ]
                                                               ? ghedachon
                                                               : seatItem.isBooked
-                                                                ? ghedaban
-                                                                : ghethuong
+                                                              ? ghedaban
+                                                              : ghethuong
                                                           }
-                                                          alt={`Seat ${key}${index + 1
-                                                            }`}
+                                                          alt={`Seat ${key}${
+                                                            index + 1
+                                                          }`}
                                                           onClick={() =>
                                                             handleClick(
                                                               seatItem.seatId,
-                                                              `${key}${index + 1
+                                                              `${key}${
+                                                                index + 1
                                                               }`,
                                                               seatItem.priceSeat,
                                                               seatItem.Seat
@@ -712,8 +717,8 @@ function ChonGhe() {
                                                   selectedSeats[`J${index + 1}`]
                                                     ? ghedachon
                                                     : seat.isBooked
-                                                      ? ghedaban
-                                                      : ghedoi
+                                                    ? ghedaban
+                                                    : ghedoi
                                                 }
                                                 alt={`Seat J${index + 1}`}
                                                 onClick={() =>
@@ -735,8 +740,8 @@ function ChonGhe() {
                                                   selectedSeats[`J${index + 1}`]
                                                     ? ghedachon
                                                     : seat.isBooked
-                                                      ? ghedaban
-                                                      : ghedoi
+                                                    ? ghedaban
+                                                    : ghedoi
                                                 }
                                                 alt={`Seat J${index + 1}`}
                                                 onClick={() =>

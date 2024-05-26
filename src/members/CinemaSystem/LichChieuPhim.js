@@ -1,16 +1,13 @@
-import mai from "../../img/mai.jpg";
-import chibau from "../../img/chibau.png";
-import madam from "../../img/madam.jpg";
-import { faTicket } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 
 import Stack from "@mui/material/Stack";
 import { Row, Col } from "react-bootstrap";
-import smaill from "../../img/smaill.gif";
+
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Avatar from "@mui/material/Avatar";
+
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { CircularProgress } from "@mui/material";
