@@ -1,4 +1,4 @@
-import h3event from ".././img/h3event.gif";
+import h3event from "../img/h3event.gif";
 import { Box, CircularProgress, Grid, Typography, Dialog, DialogTitle, DialogContent, DialogContentText, Button, ImageList, ImageListItem } from "@mui/material";
 import { useEffect, useState } from "react";
 import Aos from "aos";
@@ -86,8 +86,8 @@ function Khuyenmai() {
             <div className="col-12 col-lg-12">
               <div className="col-inner1 text-center">
                 <div className="text">
-                  <img src={h3event} alt="Cinema" />
-
+                  <img src={h3event} alt="Cinema" /> 
+                 
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ function Khuyenmai() {
                           width: "100%",
                         }}
                       >
-                        Thời Gian: {item.startDate} ~ {item.endDate}
+                      Thời Gian: {item.startDate} ~ {item.endDate}
                       </Typography>
                     </Grid>
                   </Grid>
@@ -231,7 +231,7 @@ function Khuyenmai() {
                         letterspacing: "2px",
                       }}
                     >
-
+                    
                       <Typography
                         variant="body1"
                         sx={{

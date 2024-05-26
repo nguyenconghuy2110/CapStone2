@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
-import Avatar from "@mui/material/Avatar";
+
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import thanhxuan from "../../img/thanhxuan.jpg";
+
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -16,7 +16,7 @@ function Detail(props) {
 
   const params = useParams();
   const movieId = params.movieId;
-
+  
   const [movieData, setMovieData] = useState(null);
   useEffect(() => {
     // Sau khi trang đã được tải lại, cuộn về đầu trang
@@ -45,7 +45,7 @@ function Detail(props) {
     return (
       movieData && (
         <Grid container p={11} spacing={10}>
-          <Grid item xs={5}>
+            <Grid item xs={5}>
             <Grid container spacing={2} direction="column">
               <Grid item xs={6}>
                 <ImageList sx={{ width: 500, height: 500 }}>
@@ -325,8 +325,8 @@ function Detail(props) {
               </Typography>
             </Typography>
           </Grid>
-
-
+         
+        
         </Grid>
       )
     );
@@ -335,26 +335,26 @@ function Detail(props) {
   return (
     <>
       {loading ? (
-        <Box
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '100vh'
+        <Box 
+          sx={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            alignItems: 'center', 
+            height: '100vh' 
           }}
         >
           <CircularProgress className="loading" />
         </Box>
       ) : (
         <>
-
+        
           <Grid container p={11} spacing={10}>
             {renderData()}
           </Grid>
-          <Comment movieId={params.movieId} />
-          <ListComment movieId={params.movieId} />
-
-
+           <Comment movieId={params.movieId} />
+             <ListComment movieId={params.movieId} />
+     
+     
         </>
       )}
     </>
